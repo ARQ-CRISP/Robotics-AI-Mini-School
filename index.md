@@ -3,11 +3,12 @@
 # London Robotics & AI Summer Mini-School
 
 | [![Robot Platform](maria-platform.jpg)]() |
-| :---: |
 
 **Date:** 6 June 2023 08:00 - 19:00
+
 **Location:** QMUL, Arts Two Lecture Theatre, Mile End Campus, E1 4FQ
-| [![MAP]()](https://goo.gl/maps/m46p3Ws6K86j7RYy7) |
+
+[ 📍 MAP 📍 ](https://goo.gl/maps/m46p3Ws6K86j7RYy7)
 
 Join us at the Mile End Campus of Queen Mary University of London for the first pilot of the London Robotics & AI Summer School, jointly organised by Queen Mary University of London (QMUL) and University College London (UCL). This first edition will be a one-day event (i.e. a Mini-School), with presentations by academics of QMUL, UCL and Imperial College, followed by a short robotic hackathon in which you will be challenged to update the ROS code of a small robotic arm to pick as many objects as you can in the shortest possible time: can you beat our robot baseline?
 
@@ -27,9 +28,11 @@ Join us at the Mile End Campus of Queen Mary University of London for the first 
 
 The event is partially supported by the Alan Turing Institute (https://www.turing.ac.uk), by DERI (https://www.qmul.ac.uk/deri) and by CRISP (https://lorejam.wixsite.com/crisp).
 
+| :---: |
 
-[Tasks](tasks.md)
+[ 🤖 Tasks 🤖 ](tasks.md)
 
+| :---: |
 
-| [![Code Upload!]()](https://drive.google.com/drive/folders/1-Kni6YgTj-TUEOGt0LPY9M0K-nPpPJsM?usp=sharing) | 
-|--- | --- | --- |
+[ 💻 Code Share! Please upload your codes here! 💻 ](https://drive.google.com/drive/folders/1-Kni6YgTj-TUEOGt0LPY9M0K-nPpPJsM?usp=sharing) 
+
