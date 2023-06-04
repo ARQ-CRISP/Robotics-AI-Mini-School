@@ -1,18 +1,18 @@
 
-| [![Youtube video](youtube-preview.png)](https://www.youtube.com/watch?v=qHECgqK1NOY) |
+
+# London Robotics & AI Summer Mini-School
+
+| [![Robot Platform](maria-platform.jpg)]() |
 | :---: |
 
 
-### Paper URL:
-* [https://doi.org/10.5281/zenodo.7899824](https://zenodo.org/record/7899824)
-### Authors
-* [Gokhan Solak](https://scholar.google.com/citations?user=yuOV2TQAAAAJ)
-* [Arash Ajoudani](https://scholar.google.com/citations?user=1hKOgRoAAAAJ)
-### Abstract
-Vibration suppression is an important skill for future robots that will collaborate with humans in industrial
-settings. The vibration through physical interaction is a common problem in such settings, especially in operations involving hand-held vibrating tools. The existing human-robot collaboration (HRC) works addressing this problem mostly focus on the oscillations caused by the human operator, and suppress them by adapting the admittance parameters. This, however, usually results in stiffer robot behavior and contributes to reducing the overall performance of the task, in particular when impedance planning is a requirement. In this work, we focus on the vibration coming from external sources such as power
-tools and suppress it actively. We learn the vibration using the bandlimited multiple Fourier linear combiner (BMFLC) algorithm and apply it as a feedforward Cartesian force to cancel the vibration. We combine the feedforward force control with variable impedance learning and show that it improves the vibration suppression performance in simulation and real-world experiments. The feedforward approach can suppress the vibration better while keeping a more compliant set of impedance parameters, which is crucial in HRC.
 
+Join us at the Mile End Campus of Queen Mary University of London for the first pilot of the London Robotics & AI Summer School, jointly organised by Queen Mary University of London (QMUL) and University College London (UCL). This first edition will be a one-day event (i.e. a Mini-School), with presentations by academics of QMUL, UCL and Imperial College, followed by a short robotic hackathon in which you will be challenged to update the ROS code of a small robotic arm to pick as many objects as you can in the shortest possible time: can you beat our robot baseline?
+
+The event is free! But places are limited (first come, first served). You'll need to sign up to participate (registration opens on 04/05/2023 here: https://www.eventbrite.co.uk/e/london-robotics-ai-summer-mini-school-tickets-625127672697).
+
+
+[Tasks](tasks.md)
 
 
 | [![IIT-HRII](IIT%20logoHRII%20T1%20POS.png)](https://hri.iit.it/) | [![CONCERT Project](concert-logo-lofi.png)](https://concertproject.eu/) | [![CONCERT Project](ICRA-Main-Logo.png)](https://www.icra2023.org/) |
