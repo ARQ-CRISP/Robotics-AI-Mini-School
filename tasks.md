@@ -1,10 +1,13 @@
+| [![Teams](teams.png)]() |
+
+
 Two tasks:
 
 A: (tactile/visual) object localization;
 B: (tactile/visual) exploration
 C: haptic object recognition.
 
-Task A
+**Task A**
 Mr White robot arm, with gripper.
 (add tactile sensors on the gripper, QMUL, or a camera, UCL)
 The target object sits on the table, within the arm workspace.
@@ -17,7 +20,7 @@ Tha arm moves back to a fixed configuration near to the table.
 Gripper opens.
 The arm moves back to home configuration.
 
-Task B
+**Task B**
 Mr White robot arm, with gripper.
 (add tactile sensors on the gripper, QMUL, or a camera, UCL)
 The target object sits on the table, within the arm workspace.
@@ -31,7 +34,7 @@ Step-1 and step-2 are repeated for N number of times (e.g. N=1000);
 probabilities are reset; 
 a new exploration starts.
 
-Task C (last resort, if MrWhite does not work)
+**Task C** (last resort, if MrWhite does not work)
 Robotiq adaptive gripper, with one 2x2 flat tactile sensor (empty soft pad on the other side).
 Gripper is open (fixed on the desk).
 One object (among 10) is placed within the fingers.
