@@ -28,11 +28,11 @@ Join us at the Mile End Campus of Queen Mary University of London for the first 
 
 The event is partially supported by the Alan Turing Institute (https://www.turing.ac.uk), by DERI (https://www.qmul.ac.uk/deri) and by CRISP (https://lorejam.wixsite.com/crisp).
 
- :---:
+ ---
 
 [ 🤖 **Tasks** 🤖 ](tasks.md)
 
- :---:
+ ---
 
 [ 💻 **Code Share!** Please upload your codes here! 💻 ](https://drive.google.com/drive/folders/1-Kni6YgTj-TUEOGt0LPY9M0K-nPpPJsM?usp=sharing) 
 
