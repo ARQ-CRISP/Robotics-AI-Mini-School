@@ -1,6 +1,5 @@
 
 
-# London Robotics & AI Summer Mini-School
 
 [![Robot Platform](maria-platform.jpg)]()
 
