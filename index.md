@@ -25,7 +25,7 @@ Join us at the Mile End Campus of Queen Mary University of London for the first 
 * 16:00-17:30 Mini-Hackathon (part #2): presentation of results and closing
 * 17:30-19:00 Drinks reception
 
-The event is partially supported by the Alan Turing Institute (https://www.turing.ac.uk), by DERI (https://www.qmul.ac.uk/deri) and by CRISP (https://lorejam.wixsite.com/crisp).
+The event is partially supported by the [Alan Turing Institute](https://www.turing.ac.uk), by [DERI](https://www.qmul.ac.uk/deri) and by [CRISP](https://lorejam.wixsite.com/crisp).
 
  ---
 

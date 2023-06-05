@@ -34,7 +34,7 @@ You are expected to update the provided code so that the gripper performs the ta
 - The arm moves back to home configuration.
 
 
-***Your code should consist of::***
+***Your code should consist of:***
 
 - Create a ROS node that reads the information provided by the input node. By reading this information, the node should also move the arms to a position that would enable grasping the object. The code we provide performs the grasping and shaking.
 
