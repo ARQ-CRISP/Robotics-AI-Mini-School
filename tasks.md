@@ -68,8 +68,34 @@ set_angles = rospy.ServiceProxy("set_joint_angles", SetAngles)
 		```
 
 
-- _Vision Team:_ You need to 
+- _Vision Team:_ 
+	- You need to subscribe to the topic _/image_raw_ in order to get information from camera. In your node script, add:
 
+		```python
+		import cv2
+		from sensor_msgs.msg import Image 
+		from cv_bridge import CvBridge, CvBridgeError
+
+		# Initialise the CvBridge class
+		bridge = CvBridge()
+
+		# Subscribe to the topic with the callback function
+ 		sub_image = rospy.Subscriber("/image_raw", Image, image_callback)
+		```
+		You need to create your own image_callback function inside the node that would process the image received. 
+
+		```python
+		def image_callback(img_msg):
+     		# log some info about the image topic
+     		rospy.loginfo(img_msg.header)
+
+     		# Try to convert the ROS Image message to a CV2 Image
+     		try:
+         		cv_image = bridge.imgmsg_to_cv2(img_msg, "passthrough")
+     		except CvBridgeError, e:
+         		rospy.logerr("CvBridge Error: {0}".format(e))
+
+		```
 
 - Update the launch file to activate the node you have created. 
 
