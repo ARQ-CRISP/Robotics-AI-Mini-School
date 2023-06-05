@@ -34,13 +34,24 @@ You are expected to update the provided code so that the gripper performs the ta
 - The arm moves back to home configuration.
 
 
-***Your code should consist of:***
+***Your code:***
 
-- Create a ROS node that reads the information provided by the input node. By reading this information, the node should also move the arms to a position that would enable grasping the object. The code we provide performs the grasping and shaking.
+Create a ROS node that reads the information provided by the input node. By reading this information, the node should also move the arms to a position that would enable grasping the object. The code we provide performs the grasping and shaking. 
+
+- Pay attention to the functions:
+
+```js
+// Javascript code with syntax highlighting.
+get_angles = rospy.ServiceProxy("get_joint_angles", GetAngles) 
+set_angles = rospy.ServiceProxy("set_joint_angles", SetAngles)
+```
+
+
+- You need to read the service file in order to get information from the sensor
 
 - Update the launch file to activate the node you have created. 
 
-Your graph should look like this: 
+Your _rqt_graph_ should look like this: 
 
 
 ---
