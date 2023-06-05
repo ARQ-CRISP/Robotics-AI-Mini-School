@@ -26,26 +26,26 @@ The arm moves back to home configuration.
 
 ## We will follow the below schedule:
 
-* 9:30-10:00 Welcome and Introduction
+* **9:30-10:00** Welcome and Introduction
 Lorenzo will introduce the idea/objective of the SS, and explain the task.
 
-Participants will be asked to make “teams”, as cross-affiliation as possible. Teams could be 4-6 people each.
+- Participants will be asked to make “teams”, as cross-affiliation as possible. Teams could be 4-6 people each.
 
-A total of 8 teams (4 vision, 4 tactile) would be a good number.
-For example, 4 /* 8 = 32, 5 /* 8=40, 6 /* 8 = 48… this should match the expected number of participants.
+- A total of 8 teams (4 vision, 4 tactile) would be a good number.
+For example, 4 \* 8 = 32, 5 \* 8=40, 6 \* 8 = 48… this should match the expected number of participants.
 
 
 [![Teams](teamsb.png)]() 
 
 
-* 13:00-15:30 Mini-Hackathon (part #1): code my robot (can you beat the baseline?)
+* **13:00-15:30** Mini-Hackathon (part #1): code my robot (can you beat the baseline?)
 Teams work on the code and test their solutions.
 
 
-* 16:00-17:30 Mini-Hackathon (part #2): presentation of results and closing.
+* **16:00-17:30** Mini-Hackathon (part #2): presentation of results and closing.
 
-Knock-out games. How many objects can you pick&shake in 3 minutes. 1 point for each object contact,  2 points for each object pick, 3 points for each shake with no object fall.
-One winner in each league (vision/tactile), and one overall winner of the FINAL game (vision VS tactile).
+- Knock-out games. How many objects can you pick & shake in 3 minutes. 1 point for each object contact,  2 points for each object pick, 3 points for each shake with no object fall.
+- One winner in each league (vision/tactile), and one overall winner of the FINAL game (vision VS tactile).
 
 
 ## **Other possible tasks:**
