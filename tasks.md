@@ -33,6 +33,9 @@ You are expected to update the provided code so that the gripper performs the ta
 
 - The arm moves back to home configuration.
 
+Currently, the random movements are set by Node 1. Working after this node, you will need to create a second node that will find the object. After the object is found, your node will initiate the third node that will perform grasp, shake and go home. In summary, we expect you to implement Node 2:
+
+[![Nodes](ROS_nodes.jpg)]() 
 
 ***Your code:***
 
@@ -56,7 +59,7 @@ set_angles = rospy.ServiceProxy("set_joint_angles", SetAngles)
 		rospy.Subscriber("magnetic_fingertip_zeroset", xServerMsg, callback_function)
 		```
 
-	You need to create your own callback_function inside the node that would process the message. 
+		You need to create your own callback_function inside the node that would process the message. 
 
 	- Each time the arm changes position, you need to reset the sensor to callibrate. To reset call the service _/sensor_reset_. You initialise this service in your node by adding:
 
