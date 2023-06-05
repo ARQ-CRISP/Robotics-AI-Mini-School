@@ -36,11 +36,17 @@ You are expected to update the provided code so that the gripper performs the ta
 
 ***Your code should consist of::***
 
-- Create a ROS node that reads the information provided by the input node. By reading this information, the node should also control the arms to perform grasping the object. 
+- Create a ROS node that reads the information provided by the input node. By reading this information, the node should also move the arms to a position that would enable grasping the object. The code we provide performs the grasping and shaking.
 
-- Update the launch file to activate the node. 
+- Update the launch file to activate the node you have created. 
 
 Your graph should look like this: 
+
+
+---
+
+
+**TEAMS:**
 
 [![Teams](teamsb.png)]() 
 
