@@ -9,8 +9,10 @@ We present you Mr White robot arm with gripper. We have two configurations: one 
 
 The target object sits on the table, within the arm workspace.
 
+**NODE 1**
 The arm moves to a random joints-space configuration (taken from a list of valid/safe configurations near to the table surface, with gripper about 5 cm over the table).
 
+**NODE 2**
 _“Local exploration”_ starts. 
 
 (This is the part of the code that the teams will have to update in the Hackathon; in the initial baseline we provide, the robot moves only.)
@@ -21,7 +23,10 @@ You are expected to update the provided code so that the gripper performs the ta
 
 - The gripper positions itself to perform the grasping. 
 
-Currently, the random movements are set by Node 1. Working after this node, you will need to create a second node that will find the object. After the object is found, your node will initiate the third node that will perform grasp, shake and drop. In summary, we expect you to implement Node 2:
+Currently, the random movements are set by Node 1. Working after this node, you will need to create a second node that will find the object. After the object is found, your node will initiate the third node that will perform grasp, shake and drop. In summary, we expect you to implement Node 2. 
+
+**NODE 3**
+The arm will perform grasping at the final position determined by Node 2. Then, it will  move and shake. We will assess if it drops the object. 
 
 [![Nodes](ROSNodes2.jpg)]() 
 
