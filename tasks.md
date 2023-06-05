@@ -3,7 +3,7 @@
 
 **Two strategies:** Vision based or Tactile based.
 
-# **Task A**
+### **Task A**
 
 Mr White robot arm, with gripper.
 
@@ -24,7 +24,7 @@ Gripper opens.
 The arm moves back to home configuration.
 
 
-# We will follow the below schedule:
+## We will follow the below schedule:
 
 * 9:30-10:00 Welcome and Introduction
 Lorenzo will introduce the idea/objective of the SS, and explain the task.
@@ -32,7 +32,7 @@ Lorenzo will introduce the idea/objective of the SS, and explain the task.
 Participants will be asked to make “teams”, as cross-affiliation as possible. Teams could be 4-6 people each.
 
 A total of 8 teams (4 vision, 4 tactile) would be a good number.
-For example, 4*8=32, 5*8=40, 6*8=48… this should match the expected number of participants.
+For example, 4 /* 8 = 32, 5 /* 8=40, 6 /* 8 = 48… this should match the expected number of participants.
 
 
 [![Teams](teamsb.png)]() 
@@ -52,7 +52,7 @@ One winner in each league (vision/tactile), and one overall winner of the FINAL 
 * B: (tactile/visual) exploration
 * C: haptic object recognition.
 
-# **Task B**
+### **Task B**
 
 Mr White robot arm, with gripper. (add tactile sensors on the gripper, QMUL, or a camera, UCL)
 
@@ -78,7 +78,7 @@ a new exploration starts.
 
 
 
-# **Task C** (last resort, if MrWhite does not work)
+### **Task C** (last resort, if Mr White does not work)
 
 Robotiq adaptive gripper, with one 2x2 flat tactile sensor (empty soft pad on the other side).
 
