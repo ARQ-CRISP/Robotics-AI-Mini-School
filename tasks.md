@@ -13,19 +13,37 @@ The arm moves to a random joints-space configuration (taken from a list of valid
 
 _“Local exploration”_ starts. 
 
-(This is the part of the code that teams will have to update in the Hackathon; in the initial baseline we provide, the robot only does simple things.)
+(This is the part of the code that the teams will have to update in the Hackathon; in the initial baseline we provide, the robot moves only.)
 
-The gripper closes. 
+You are expected to update the provided code so that the gripper performs the tasks as below:
 
-The arm moves up to a fixed configuration, with the gripper at about 15 cm over the table.
+- The gripper finds the object.
 
-Gentle shaking.
+- The gripper positions itself to perform the grasping. 
 
-The arm moves back to a random/valid configuration near to the table.
+- The gripper closes and grasps the object. 
 
-Gripper opens.
+- The arm moves up to a fixed configuration, with the gripper at about 15 cm over the table.
 
-The arm moves back to home configuration.
+- Gentle shaking.
+
+- The arm moves back to a random/valid configuration near to the table.
+
+- Gripper opens.
+
+- The arm moves back to home configuration.
+
+***Your code:***
+
+Should consist of:
+
+- Create a ROS node that reads the information provided by the input node.
+
+- Create a ROS node that would control the arms to perform grasping the object. 
+
+- Update the launch file to activate the nodes. 
+
+Your graph should look like it: 
 
 [![Teams](teamsb.png)]() 
 
