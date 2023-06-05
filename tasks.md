@@ -3,7 +3,7 @@
 
 **Two strategies:** Vision based or Tactile based.
 
-**Task A**
+# **Task A**
 
 Mr White robot arm, with gripper.
 
@@ -24,7 +24,7 @@ Gripper opens.
 The arm moves back to home configuration.
 
 
-We will follow the below schedule:
+# We will follow the below schedule:
 
 * 9:30-10:00 Welcome and Introduction
 Lorenzo will introduce the idea/objective of the SS, and explain the task.
@@ -48,11 +48,11 @@ Knock-out games. How many objects can you pick&shake in 3 minutes. 1 point for e
 One winner in each league (vision/tactile), and one overall winner of the FINAL game (vision VS tactile).
 
 
-**Other possible tasks:**
+## **Other possible tasks:**
 * B: (tactile/visual) exploration
 * C: haptic object recognition.
 
-**Task B**
+# **Task B**
 
 Mr White robot arm, with gripper. (add tactile sensors on the gripper, QMUL, or a camera, UCL)
 
@@ -78,7 +78,7 @@ a new exploration starts.
 
 
 
-**Task C** (last resort, if MrWhite does not work)
+# **Task C** (last resort, if MrWhite does not work)
 
 Robotiq adaptive gripper, with one 2x2 flat tactile sensor (empty soft pad on the other side).
 
