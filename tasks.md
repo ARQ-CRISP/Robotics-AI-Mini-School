@@ -21,21 +21,9 @@ You are expected to update the provided code so that the gripper performs the ta
 
 - The gripper positions itself to perform the grasping. 
 
-- The gripper closes and grasps the object. 
+Currently, the random movements are set by Node 1. Working after this node, you will need to create a second node that will find the object. After the object is found, your node will initiate the third node that will perform grasp, shake and drop. In summary, we expect you to implement Node 2:
 
-- The arm moves up to a fixed configuration, with the gripper at about 15 cm over the table.
-
-- Gentle shaking.
-
-- The arm moves back to a random/valid configuration near to the table.
-
-- Gripper opens.
-
-- The arm moves back to home configuration.
-
-Currently, the random movements are set by Node 1. Working after this node, you will need to create a second node that will find the object. After the object is found, your node will initiate the third node that will perform grasp, shake and go home. In summary, we expect you to implement Node 2:
-
-[![Nodes](ROS_nodes.jpg)]() 
+[![Nodes](ROSNodes2.jpg)]() 
 
 ***Your code:***
 
