@@ -33,17 +33,14 @@ You are expected to update the provided code so that the gripper performs the ta
 
 - The arm moves back to home configuration.
 
-***Your code:***
 
-Should consist of:
+***Your code should consist of::***
 
-- Create a ROS node that reads the information provided by the input node.
+- Create a ROS node that reads the information provided by the input node. By reading this information, the node should also control the arms to perform grasping the object. 
 
-- Create a ROS node that would control the arms to perform grasping the object. 
+- Update the launch file to activate the node. 
 
-- Update the launch file to activate the nodes. 
-
-Your graph should look like it: 
+Your graph should look like this: 
 
 [![Teams](teamsb.png)]() 
 
