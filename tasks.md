@@ -99,13 +99,13 @@ set_angles = rospy.ServiceProxy("set_joint_angles", SetAngles)
 
 - Update the launch file to activate the node you have created. 
 
-Your _rqt_graph_ should look like this: 
-
 
 ---
 
 
 **TEAMS:**
+
+Make a Team! 2-3 people. Vision or Tactile?
 
 [![Teams](teamsb.png)]() 
 
