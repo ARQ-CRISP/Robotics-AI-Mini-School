@@ -107,6 +107,14 @@ set_angles = rospy.ServiceProxy("set_joint_angles", SetAngles)
 
 Make a Team! 2-3 people. Vision or Tactile?
 
+In each match, each team has _5 minutes_ to (try) pick the object as many times as possible. 
+
+For each grasp attempt:
+
+- Touch the object - **1 point**
+- Pick the object - **2 points**
+- Hold the object while shaking - **3 points**
+
 [![Teams](teamsb.png)]() 
 
 
